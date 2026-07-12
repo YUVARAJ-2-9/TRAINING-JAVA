@@ -6,11 +6,9 @@ public class Task14 {
         
         int sum = 0;
         while(n1 > 0){
-
             int ld = n1 % 10;
             int fact = 1;
-
-            for(int i =1; i<=ld;i++){
+               for(int i =1; i<=ld;i++){
                 fact *= i;
                   }
             sum += fact;
